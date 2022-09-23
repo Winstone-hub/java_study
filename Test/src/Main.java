@@ -13,5 +13,7 @@ public class Main {
         System.out.println("홍길동");
         System.out.println("임꺽정");
         System.out.println("이몽룡");
+        System.out.println("안녕하세요~ 지금은 자바 시간입니다.");
+
     }
 }
