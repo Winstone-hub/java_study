@@ -95,7 +95,7 @@ public class Main {
             int[] numbers = new int[6];
             int index = 0;
 
-            ㄴwhile(true)
+            while(true)
             {
                 // ** 1 ~ 45 사이의 난수를 생성.
                 int num = (int)(Math.random() * 45) + 1;
