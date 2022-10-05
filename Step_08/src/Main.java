@@ -129,7 +129,6 @@ public class Main {
                 if(index == 6) break;
             }
 
-
             // ** 로또번호 출력
             for(int i = 0 ; i < 6 ; ++i )
             {
