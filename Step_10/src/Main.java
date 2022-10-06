@@ -1,10 +1,6 @@
-
-
-
 // ** public : 공개 상태
-// **  :
+// ** protected : 상속과계일 때 public, 아닐 때에는 private
 // ** private : 비공개 상태
-
 
 
 // ** OOP의 특징 5가지.
