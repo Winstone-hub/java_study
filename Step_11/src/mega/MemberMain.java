@@ -1,7 +1,6 @@
 package mega;
 
 public class MemberMain {
-
     //private Member m;
     //private Member m2;
 
@@ -63,4 +62,8 @@ public class MemberMain {
             }
         }
     }
+
+
+
+
 }
