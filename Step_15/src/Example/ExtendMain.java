@@ -4,6 +4,26 @@ public class ExtendMain {
 
     public static void main(String[] args) {
 
+        // ** abstract 를 사용한 클래스는 스스로를 생성하는것이 불가능.
+        //Object o = new Object();
+
+        // ** 상속관계에 있는 클래스를 할당하여 사용한다.
+        /*
+        Object[] objects = new Object[2];
+
+        objects[0] = new Student("홍길동");
+        objects[1] = new Teacher("임꺽정");
+
+        objects[0].render();
+        objects[1].render();
+        */
+
+
+
+
+
+        //=======================================================
+        /*
         Object[] objects = new Object[5];
 
         int index = 0;
@@ -46,13 +66,11 @@ public class ExtendMain {
         for(int i = 0 ; i < objects.length ; ++i)
             objects[i].render();
 
-
         Teacher tchs = new Teacher();
         Student[] stds = new Student[4];
+        */
 
-
-
-
+        //=======================================================
         /*
         Object std1 = new Student();
 
@@ -71,5 +89,9 @@ public class ExtendMain {
         tch.render();
         std1.render();
         */
+        //=======================================================
+
+
+
     }
 }
