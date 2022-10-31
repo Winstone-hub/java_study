@@ -6,11 +6,20 @@ public class Member extends Parent {
     Group group;
 
     public Group getGroup() { return group; }
-    public void setGroup(Group group) { this.group = group; }
+    public Member setGroup(Group group) {
+        this.group = group;
+        return this;
+    }
 
     public String getUserName() { return userName; }
-    public void setUserName(String userName) { this.userName = userName; }
+    public Member setUserName(String userName) {
+        this.userName = userName;
+        return this;
+    }
 
     public int getAge() { return this.age; }
-    public void setAge(int age) { this.age = age; }
+    public Member setAge(int age) {
+        this.age = age;
+        return this;
+    }
 }
